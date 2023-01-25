@@ -80,7 +80,36 @@ SELECT * FROM products
 WHERE price >= 30 and price <= 300
 ORDER BY price ASC;
 
+CREATE TABLE purchases(
+id TEXT PRIMARY KEY UNIQUE NOT NULL,
+total_price REAL NOT NULL,
+paid INTEGER NOT NULL,
+delivered_at TEXT,
+buyer_id TEXT NOT NULL,
+FOREIGN KEY (buyer_id) REFERENCES users(id)
+);
 
 
+SELECT * FROM purchases;
+
+
+
+INSERT INTO purchases (id, total_price, paid, delivered_at, buyer_id)
+VALUES
+('p001', 150, 0, DATETIME('now'), 'u003'),
+('p002', 205, 0, DATETIME('now'), 'u003'),
+('p003', 300, 0, DATETIME('now'), 'u002'),
+('p004', 105, 0, DATETIME('now'), 'u002');
+
+DROP TABLE purchases;
+
+UPDATE purchases
+SET delivered_at = DATETIME('now')
+WHERE id = 'p001';
+
+SELECT * FROM purchases
+INNER JOIN users
+ON purchases.buyer_id = users.id
+WHERE users.id = 'u003'
 
 
