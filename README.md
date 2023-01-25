@@ -6,8 +6,13 @@ https://documenter.getpostman.com/view/24481466/2s8ZDcxJv3
 
 Os conteúdos principais aprendidos neste projeto foram:
 
-POSTMAN
-SQLITE
+- Git
+- NodeJS
+- Typescript
+- Express
+- SQL e SQLite
+- Knex
+- Postman
 
 
 O objetivo deste projeto é ter o primeiro contato para criação de api, e criação de banco de dados.
