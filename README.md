@@ -1,10 +1,19 @@
-# Aprofundamento Express - Template de Prática
-**Vamos utilizar esse repositório para as práticas da aula!**
 
-## Instruções para baixar
+Projeto Labecommerce back-end
 
-1. Faça o fork desse repositório.
-2. No repositório com seu nome de usuário, copie a url.
-3. Abra a pasta onde você guarda os materiais do curso pelo terminal.
-4. Baixe o repositório usando: git clone url-copiada.
-5. Abra a pasta no vscode. Vamos codar!
+1 - Este projeto foi criado a API exclusiva conforme link abaixo:
+https://documenter.getpostman.com/view/24481466/2s8ZDcxJv3
+
+
+Os conteúdos principais aprendidos neste projeto foram:
+
+- Git
+- NodeJS
+- Typescript
+- Express
+- SQL e SQLite
+- Knex
+- Postman
+
+
+O objetivo deste projeto é ter o primeiro contato para criação de api, e criação de banco de dad

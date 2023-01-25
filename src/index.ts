@@ -172,11 +172,6 @@ try {
     }
 }
 
-
-     // IMPLEMENTAR Create Product
-// validar o body
-// extra:
-// não deve ser possível criar mais de um produto com a mesma id
  })
 
 
@@ -207,13 +202,6 @@ app.post("/purchase", (req: Request, res: Response) => {
 }
 
 
-   
-//     Create Purchase
-// validar o body
-// extra:
-// id do usuário que fez a compra deve existir no array de usuários cadastrados
-// id do produto que foi comprado deve existir no array de produtos cadastrados
-// a quantidade e o total da compra devem estar com o cálculo correto
 })
 
 
